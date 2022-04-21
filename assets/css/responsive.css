@@ -266,7 +266,9 @@
     .hide-on-pc {
         display: none;
     }
+}
 
+@media (min-width: 768px) {
     .header__menu, .header__menu-exit {
         display: none !important;
     }
