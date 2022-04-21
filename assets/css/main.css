@@ -1,4 +1,6 @@
-
+.app {
+    overflow: hidden;
+}
 
 /* Header CSS */
 .header {
