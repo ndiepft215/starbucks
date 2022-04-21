@@ -1,6 +1,7 @@
-.app {
+.app{
     overflow: hidden;
 }
+
 
 /* Header CSS */
 .header {
@@ -252,7 +253,6 @@
 
 .container__header {
     background-color: rgb(212, 233, 226);
-    background-image: url("/assets/img/banner.webp");
     background-position: 50%;
     background-repeat: no-repeat;
     background-size: cover;
