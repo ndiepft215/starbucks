@@ -1,5 +1,8 @@
 /* Mobile & Tablet */
 @media (max-width: 767px){
+    .grid.wide {
+        width: 95%;
+    }
     .hide-on-mobile-tablet {
         display: none;
     }
@@ -274,8 +277,14 @@
     }
 }
 
-@media (min-width: 1024px) and (max-width: 1239px){
+@media (min-width: 1024px) and (max-width: 1439px){
     .wide {
         width: 90%;
     }
 } 
+
+@media (min-width: 1440px) {
+    .grid.wide {
+        max-width: 75%;
+    }
+}
