@@ -69,6 +69,13 @@
         max-width: 250px;
     }
 
+    .getting-started, .endless-extras, .star-codes, .question {
+        margin: 60px 0;
+    }
+
+    .extend {
+        margin-top: 0;
+    }
 
     .extend-heading {
         padding: 36px 0;
