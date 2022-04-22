@@ -377,10 +377,13 @@
     padding: 54px 0;
 }
 
-.col.tabs {
+.row.tabs-wrap {
+    justify-content: center;
+}
+
+.tabs {
     display: flex;
     position: relative;
-    justify-content: center;
 }
 
 .tabs .line {
