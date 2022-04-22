@@ -54,12 +54,6 @@
         display: block;
     }
 
-    .tab-item {
-        margin:0 auto;
-        padding: 0 10px;
-        font-size: 18px;
-    }
-
     .tab-pane {
         flex-wrap: wrap;
         text-align: center;
@@ -293,5 +287,21 @@
 @media (min-width: 1440px) {
     .grid.wide {
         max-width: 75%;
+    }
+}
+
+@media (min-width: 300px) and (max-width: 449px) {
+    .tab-item {
+        margin: 0 auto;
+        padding: 0 10px;
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 450px) and (max-width: 767px) {
+    .tab-item {
+        margin: 0 auto;
+        padding: 0 24px;
+        font-size: 18px;
     }
 }
