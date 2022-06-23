@@ -254,7 +254,7 @@
 
 .container__header {
     background-color: rgb(212, 233, 226);
-    background-image: url("/assets/images/banner.webp");
+    background-image: url("../images/banner.webp");
     background-position: 50%;
     background-repeat: no-repeat;
     background-size: cover;
